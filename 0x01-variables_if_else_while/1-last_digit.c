@@ -2,18 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 /**
+ * main - print last digit in random number
  *
- ** main - print last digit in random number
+ * Description: print last digit in random number
  *
- **
- *
- ** Description: print last digit in random number
- *
- **
- *
- ** Return: Always 0 (Success)
- *
- **/
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n, last;
