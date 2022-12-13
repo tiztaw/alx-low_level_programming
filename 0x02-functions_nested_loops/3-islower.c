@@ -1,18 +1,15 @@
 #include "main.h"
 /**
- * main - prints the string "_putchar" from a character array.
- * Return: 0 on success.
+ * _islower - tests whether a character is a
+ * lowercase letter from the English alphabet.
+ * @c: character to test.
+ * Return: 1 if it is a lowercase letter, 0 if it is not a lowercase letter.
  */
-int main(void)
+int _islower(int c)
 {
-	char c[] = "_putchar";
-	int i;
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(c[i]);
-	}
-	_putchar('\n');
-	return (0);
 }
-
