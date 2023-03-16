@@ -1,4 +1,3 @@
-print(max(array))
 #!/usr/bin/python3
 def ispalindrome(n):
     string = str(n)
